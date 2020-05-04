@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="4.css"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <script>
+  var currentSection="p1";
+  function setcurrentSection(page){
+    document.getElementById(currentSection).classList.remove("shown");
+    currentSection=page;
+    document.getElementById(page).classList.add("shown");
+  }
+  </script>
+</head>
+<body>
+
+  <div id="circuit">
+    <div id="bttn">
+      <h1>Robert <b class = "title">Heaton</b></h1>
+      <h2>Mechatronics Engineer</h2>
+    </div>
+
+  </div>
+  <div id="aboutMe">
+    <div class="main">
+      <div class="spacing">
+        <h3>About Me</h3>
+        <div class="introductary_text">Hello! My name is Robert Heaton and I am
+          an undergraduate Mechatronics Engineer from Preston, England, and I am
+          currently studying at the University of
+          Manchester. I have always enjoyed electronics and embedded systems,
+          developing a liking for robotics and autonomous systems in my first
+          year of study, thus becomming naturally enthralled by the field of
+          mechatronics. I enjoy reading, jigsaws, history, electronics projects,
+           shooting, poetry, video games, rock-climbing, video editing,
+            and wood and metal working.
+          <div class="subSpace">
+            It is my philosophy that any system can be improved and any problem
+            overcome. I beleieve that any individual, big or small, can have a
+            huge impact and
+            should strive to better themselves and their environment.
+             It is very important that a modern engineer is ethical
+            in thier work and operates sustainably, and so this is always a
+            consideration of mine when undertaking any work. To myself, the role
+             of
+            an engineer therefore involves applying scientific principles in a
+            consciensious manner with the purpose to better mankind.
+          </div>
+          <div class="subSpace">
+            I consider myself a natural leader and enjoy working on projects,
+            whether in a group or in an individual scope. Others would consider
+            me a good listener and strong decision maker capable of action or
+            caution depending on whichever the situation calls for. I am good
+            at delegating work to people's strengths, and am not afraid to seek
+            advise on subjects that are not my speciality. I often like to
+            automate repative tasks and experiment with using mechatronics to
+            optimise processes around me, drawing inspiration from personal
+            experience and a vision of what can be. I am always trying to learn
+            new things, such as the HTML and CSS required to build this site!
+          </div>
+        </div>
+      </div>
+      <div class="spacing">
+      </div>
+    </div>
+  </div>
+  <div id="qualifications">
+    <div class="main_info_scroll">
+      <div class="spacing">
+        <h3>Experience and Qualifications</h3>
+        <p class="main_info_scroll">
+          Qualifications and experience here. Photos need adding.
+        </p>
+        <p>
+          I have completed a
+          <a href="https://www.fleetwoodtoday.co.uk/news/streetlife-youngsters-put-themselves-in-the-cold-to-help-homeless-charity-1-7429096/" target="_blank">
+            sponsored street sleep</a>
+            to raise money for chairty with NCS and have also won the first
+            <a href="https://www.fleetwoodtoday.co.uk/education/a-night-to-celebrate-all-that-is-great-in-education-1-6261192/" target="_blank">
+            Blackpool
+            and Fylde Young Scientist/Engineer Award</a>
+             in 2009.
+        </p>
+      </div>
+      <div class="spacing"></div>
+    </div>
+  </div>
+  <div id="pastWork">
+    <div class="full_page">
+      <div id="p1" class="pages shown">
+        <div class="container">
+        <div class="pageBanner">
+        <h6>
+          <span class="active">Extended Project Qualification</span>
+          <span onclick="setcurrentSection('p2')">Embedded Systems Project</span>
+          <span onclick="setcurrentSection('p3')">Third Year Project</span>
+        </h6>
+      </div>
+    </div>
+      <div class="pageText">
+        <div class="spacing">
+        <h3>Extended Project Qualification</h3>
+      </div>
+      <div class="spacing"></div>
+      </div>
+    </div>
+      <div id="p2" class="pages">
+        <div class="container">
+        <div class="pageBanner">
+        <h6>
+          <span onclick="setcurrentSection('p1')">Extended Project Qualification</span>
+          <span class="active">Embedded Systems Project</span>
+          <span onclick="setcurrentSection('p3')">Third Year Project</span>
+        </h6>
+      </div>
+    </div>
+      <div class="pageText">
+        <div class="spacing">
+          <h3>Embedded Systems Project</h3>
+        <p>Unga</p>
+      </div>
+      <div class="spacing"></div>
+      </div>
+      </div>
+      <div id="p3" class="pages">
+        <div class="container">
+        <div class="pageBanner">
+        <h6>
+          <span onclick="setcurrentSection('p1')">Extended Project Qualification</span>
+          <span onclick="setcurrentSection('p2')">Embedded Systems Project</span>
+          <span class="active">Third Year Project</span>
+        </h6>
+      </div>
+    </div>
+      <div class="pageText">
+        <div class="spacing">
+          <h3>Third Year Project</h3>
+        <p>Bunga</p>
+      </div>
+      <div class="spacing"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div id="contactInfo">
+    <div class="terminator">
+      <div class="spacing">
+        <h3>Contact Information</h3>
+        <p>
+            Robert Heaton<br>
+            Email: rsheaton@outlook.com<br>
+            Mobile: 07941 567 117<br>
+            Address: 1 Cavendish Road, Preston, Lancashire, PR1 4TY<br>
+        </p>
+        <p>
+            Citations:
+      </p>
+      <p>
+        Copyright &#169; 2019 - 2020 Robert Heaton, all rights reserved.
+      </p>
+      </div>
+      <div class="spacing"></div>
+    </div>
+  </div>
+</body>
+</html>
