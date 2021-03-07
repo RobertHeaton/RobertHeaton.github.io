@@ -71,7 +71,8 @@ div.pageText{
 	padding-top:20px;
 	background-color:#d1d1d1;
 	border-color:#ffffff;
-	box-shadow:0px 0px 20px 3px #000000;
+	border:3px solid;
+	/*box-shadow:0px 0px 20px 3px #000000;*/
 	border-radius:5px;
 	margin:auto;
 	margin-top: 40px;
@@ -80,7 +81,7 @@ div.pageBanner{
 	width:50vw;
 	background-color:#0077ff;
 	border-color:#0077ff;
-	border:1px solid;
+	border:3px solid;
 	/*box-shadow:0px 0px 20px 3px #000000;*/
 	border-radius:5px;
 	margin:auto;
