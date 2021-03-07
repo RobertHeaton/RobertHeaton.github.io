@@ -138,6 +138,7 @@ h6{
 	display:flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	-webkit-text-stroke: 1px black;
 }
 div{
 	display:block;
