@@ -120,12 +120,11 @@ div.wrapper2{
 	flex-wrap: wrap;
 	align-content: space-between;
 	max-width: 986px;
-	padding-top:20px;
 	margin:auto;
-	margin-top: 40px;
+	justify-content:center;
 }
 div.landing-bttn{
-	border: 2px solid var(--primary-colour);
+	border: 2px solid #ffffff;
   	border-radius: 30px;
   	padding: 5px 20px;
   	color: #000000;
@@ -135,6 +134,7 @@ div.landing-bttn{
 	font-weight:700;
 	font-size:130px;
 	text-align: center;
+	cursor: pointer;
 }
 div.main{
 	width:90vw;
@@ -250,11 +250,10 @@ h2{
 }
 h3{
 	color:#000000;
-	margin-left:10px;
 	margin-top:0;
-	margin-bottom:15px;
+	margin-bottom:0px;
 	font-weight:400;
-	font-size:30px;
+	font-size:35px;
 	text-align: left;
 }
 
@@ -282,7 +281,7 @@ hr.intro{
 	height: 200px;
 	padding-top: 30vh;
 	margin: auto;
-	margin-bottom:30px;
+	margin-bottom:15px;
 	border-radius:5px;
 }
 div.main_info_scroll{
