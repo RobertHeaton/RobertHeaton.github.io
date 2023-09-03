@@ -106,6 +106,20 @@ div.terminator{
 	border-radius:5px;
 	margin:auto;
 }
+div.wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	align-content: space-between;
+}
+div.wrapper2{
+	width:90vw;
+	max-width: 986px;
+	padding-top:20px;
+	margin:auto;
+	margin-top: 40px;
+}
 div.main{
 	width:90vw;
 	max-width: 986px;
