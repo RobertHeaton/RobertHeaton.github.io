@@ -22,6 +22,15 @@ a.btn{
   	transition: 0.1s all linear;
 	text-decoration: none;
 	cursor: pointer;
+	margin: 15px;
+	border: 2px solid #ffffff;
+  	border-radius: 15px;
+}
+a.btn:hover, .btn:focus {
+  border: 2px solid #0077ff;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px #000;
+  text-decoration: none;
 }
 
 .spacer{
@@ -133,7 +142,7 @@ div.landing-bttn{
   	border-radius: 15px;
   	padding: 5px 20px;
   	color: #0077ff;
-  	margin: 15px;
+  	margin: 0px;
 	max-width: 200px;
 	background-color:#ffffff;
 	font-weight:500;
