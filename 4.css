@@ -80,6 +80,14 @@ a.btn:hover, .btn:focus {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+#memoriam{
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #333;
+	background-image:url(poppy.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 #pastWork{
 	background-color:#ffffff;
 	padding-top:20px;
