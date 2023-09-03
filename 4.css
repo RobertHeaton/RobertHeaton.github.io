@@ -115,6 +115,10 @@ div.wrapper {
 }
 div.wrapper2{
 	width:90vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
 	max-width: 986px;
 	padding-top:20px;
 	margin:auto;
@@ -124,9 +128,9 @@ div.landing-bttn{
 	border: 2px solid var(--primary-colour);
   	border-radius: 30px;
   	padding: 5px 20px;
-  	color: var(--text-colour);
+  	color: #000000;
   	margin: 15px;
-	max-width: 80px;
+	max-width: 200px;
 	background-color:#ffffff;
 	font-weight:700;
 	font-size:130px;
