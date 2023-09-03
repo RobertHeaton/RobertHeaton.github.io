@@ -120,6 +120,18 @@ div.wrapper2{
 	margin:auto;
 	margin-top: 40px;
 }
+div.landing-bttn{
+	border: 2px solid var(--primary-colour);
+  	border-radius: 30px;
+  	padding: 5px 20px;
+  	color: var(--text-colour);
+  	margin: 15px;
+	max-width: 80px;
+	background-color:#ffffff;
+	font-weight:700;
+	font-size:130px;
+	text-align: center;
+}
 div.main{
 	width:90vw;
 	max-width: 986px;
