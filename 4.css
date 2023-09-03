@@ -10,13 +10,17 @@ body {
 p{
 	margin-left:10px;
 }
-a{
+a.pan{
 	color: #0077ff;
 	text-decoration: underline;
 	cursor: pointer;
 }
-a:hover{
+a.pan:hover{
 	color:#000000;
+}
+a.btn{
+  	transition: 0.1s all linear;
+	cursor: pointer;
 }
 
 .spacer{
