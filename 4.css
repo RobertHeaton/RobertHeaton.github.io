@@ -62,13 +62,13 @@ a.btn:hover, .btn:focus {
 	width:100%;
 	height:100vh;
 	background-color: #333;
-	background-image:url(circuitBanner.jpg);
+	background-image:url(resources/imgs/circuitBanner.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #aboutMe{
 	background-color:#ffffff;
-	background-image:url(collageBanner.png);
+	background-image:url(resources/imgs/collageBanner.png);
 	background-position: center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -88,7 +88,7 @@ a.btn:hover, .btn:focus {
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color: #333;
-	background-image:url(codeBanner.jpg);
+	background-image:url(resources/imgs/codeBanner.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -96,7 +96,7 @@ a.btn:hover, .btn:focus {
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color: #333;
-	background-image:url(poppy.jpg);
+	background-image:url(resources/imgs/poppy.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -109,7 +109,7 @@ a.btn:hover, .btn:focus {
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color:#333;
-	background-image:url(unionBanner.jpg);
+	background-image:url(resources/imgs/unionBanner.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
