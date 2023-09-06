@@ -353,6 +353,14 @@ div.main_info_scroll{
 	margin-right:auto;
 }
 
+a.banner, .banner:focus, .banner:visited{
+	text-decoration: none;
+	cursor: pointer;
+	scroll-behavior: smooth;
+	color: inherit;
+	max-width: 986px;
+	}
+
 a.project, .project:focus, .project:visited{
 text-decoration: none;
 cursor: pointer;
